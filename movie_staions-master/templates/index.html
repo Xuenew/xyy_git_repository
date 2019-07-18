@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <title>Title</title>
+</head>
+<body>
+
+<p></p>
+<p></p>
+<p></p>
+<br>
+
+
+             <form action="" method="post" class="center-block">
+             {{ form.csrf_token }}
+          {{form.hidden_tag()}}
+{#              {% csrf_token %}#}
+{#                 <center>#}
+{#                     <input type="text" value="请输入电影名称"/>#}
+{#                     {{ form.name(id = "movie_name",placehold = "请输入电影名称") }}#}
+{#                     <button type="submit" class="btn btn-primary btn-lg" >搜索</button>#}
+{#                </center>#}
+                 <div class="form-group">
+            <div class="input-group">
+{#              <div class="input-group-addon">#}
+{#                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>#}
+{#              </div>#}
+              {{ form.name(id = "movie_name",placeholder = "请输入电影名称") }}
+               {%for e in form.name.errors%}
+              <p>{{e}}</p>
+              {%endfor%}
+                             <button type="submit" class="btn btn-primary btn-lg" >搜索</button>
+
+            </div>
+          </div>
+            </form>
+
+{% for item in info_list %}
+<div>
+<a href="http://jx.api.163ren.com/vod.php?url={{item[0]}}" class="figure" tabindex="-1"  title={{ item[2] }}>
+			<img class="figure_pic" src={{ item[1] }} alt={{ item[0] }} >
+		</a>
+    <div>
+        <a href="http://jx.api.163ren.com/vod.php?url={{item[0]}}" ></a>
+    </div>
+
+<div>{{ item[3] }}</div>
+</div>
+{% endfor %}
+
+</body>
+</html>

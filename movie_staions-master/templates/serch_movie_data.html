@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<a href="" id="dian_ji_a" url={{ data.url }} value={{ data.vid }} >
+    <img src={{ data.url_img }} alt={{ name }}>
+</a>
+{{ data.url_h2|safe }}
+{{ data.url_div|safe }}
+{#<h2 class="result_title"><a href="https://v.qq.com/x/cover/fgqtuu38z91hfyw.html" target="_blank" _stat="video:poster_tle"><em class="hl">一出好戏</em><span class="sub">（普通话/原版/2018）</span><span class="type">电影</span></a></h2>#}
+{#	 <div class="result_info">#}
+{##}
+{#		<div class="info_item info_item_odd">#}
+{#			<span class="label">别　名：</span>#}
+{#			<span class="content">大富翁  诳想曲</span>#}
+{#		</div>#}
+{##}
+{##}
+{#		<div class="info_item info_item_even">#}
+{#			<span class="label">英文名：</span>#}
+{#			<span class="content">The Island</span>#}
+{#		</div>#}
+{##}
+{##}
+{##}
+{##}
+{#		<div class="info_item info_item_odd">#}
+{#			<span class="label">导　演：</span>#}
+{#			<span class="content"><a href="?q=%E9%BB%84%E6%B8%A4" target="_blank" _stat="video:poster_v_导演">黄渤</a></span>#}
+{#		</div>#}
+{##}
+{##}
+{#		<div class="info_item info_item_even">#}
+{#			<span class="label">主　演：</span>#}
+{#			<span class="content"><a href="?q=%E9%BB%84%E6%B8%A4" target="_blank" _stat="video:poster_v_主演">黄渤</a> <a href="?q=%E8%88%92%E6%B7%87" target="_blank" _stat="video:poster_v_主演">舒淇</a> <a href="?q=%E7%8E%8B%E5%AE%9D%E5%BC%BA" target="_blank" _stat="video:poster_v_主演">王宝强</a> <a href="?q=%E5%BC%A0%E8%89%BA%E5%85%B4" target="_blank" _stat="video:poster_v_主演">张艺兴</a> <a href="?q=%E4%BA%8E%E5%92%8C%E4%BC%9F" target="_blank" _stat="video:poster_v_主演">于和伟</a> <a href="?q=%E7%8E%8B%E8%BF%85" target="_blank" _stat="video:poster_v_主演">王迅</a></span>#}
+{#		</div>#}
+{##}
+{##}
+{##}
+{##}
+{#		<div class="info_item info_item_desc">#}
+{#			<span class="label">简　介：</span>#}
+{#			<span class="desc_text">　马进欠下债务，与远房表弟小兴在底层社会摸爬滚打，习惯性的买彩票，企图一夜爆富，并迎娶自己的同事姗姗。一日，公司全体员工出海团建，途中，马进收到了彩票中头奖的信息，六千万！就在马进狂喜自己翻身的日子终于到来之际，一场突如其来的滔天巨浪打破了一切。苏醒过来的众人发现身处荒岛，丧失了一切与外界的联系…<a class="desc_more" href="https://v.qq.com/detail/f/fgqtuu38z91hfyw.html" target="_blank" _stat="video:poster_detail">详细<i class="iconfont arrow_right"></i></a></span>#}
+{#		</div>#}
+{##}
+{#	</div>#}
+<div style="display: none">
+    <input type="text" name="url" id="url" style="width:43%;margin-bottom: 2px;text-align:center;" placeholder="请输入url地址，如：https://v.qq.com/x/cover/79npj83isb0ylvq/l0029fi58lh.html" value={{ data.url }}>
+    <input type="button" value="计算" id="arithmetic">
+    <h3>CKey</h3>
+    <code class="result" style="width:1200px;display: block;word-wrap: break-word;border: 1px solid #ccc;">
+
+    </code>
+</div>
+
+<script>
+function getCkey(j) {
+    return j.encryptVer = "8.1",
+        k = c(j.vids || j.vid, j.tm, j.appVer, j.guid, j.platform);
+}
+
+var c = function () {
+    function a(a) {
+        return b.call(this, ia + 2097 + 8214 - 15822, a)
+    }
+    function b(c) {
+        for (var d = "", e = -8432 + ka + 12979; e < "\u090a".length; e++)
+            d += String.fromCharCode(la + ma + na - 50 ^ "\u090a".charCodeAt(e));
+        for (var f = "", g = 0; g < "\u07ad".length; g++)
+            f += String.fromCharCode(I + 3326 + 4681 ^ "\u07ad".charCodeAt(g));
+        for (var k = "", l = 0; l < "\u04a0".length; l++)
+            k += String.fromCharCode(oa + Q + m + 8449 ^ "\u04a0".charCodeAt(l));
+        for (var n = "", p = 0; p < "\u0d07".length; p++)
+            n += String.fromCharCode(G + -5316 + 8904 ^ "\u0d07".charCodeAt(p));
+        for (var r = "", A = pa + 3628 + qa - 16465; A < "\u05ff".length; A++)
+            r += String.fromCharCode(146 + na + -1434 - 5788 ^ "\u05ff".charCodeAt(A));
+        for (var C = "", D = -1434 + ra + 11308; D < "\u08a8".length; D++)
+            C += String.fromCharCode(2260 ^ "\u08a8".charCodeAt(D));
+        for (var N = "", O = 0; O < "\u0b36".length; O++)
+            N += String.fromCharCode(2890 ^ "\u0b36".charCodeAt(O));
+        for (var P = "", T = sa + 6246; T < "\u01a8\u01a2\u01f6\u01a6\u01f6\u01a7\u01f5\u01f1\u01a7\u01a4".length; T++)
+            P += String.fromCharCode(-5316 + da + ta + 358 ^ "\u01a8\u01a2\u01f6\u01a6\u01f6\u01a7\u01f5\u01f1\u01a7\u01a4".charCodeAt(T));
+        for (var U = "", V = ua + 146 + 4448 - 6833; V < "\u0a78".length; V++)
+            U += String.fromCharCode(2564 ^ "\u0a78".charCodeAt(V));
+        for (var W = "", ia = va + 4448 + 4019; ia < "\u084c".length; ia++)
+            W += String.fromCharCode(2096 ^ "\u084c".charCodeAt(ia));
+        for (var gb = "", hb = wa + -3155 + -9555 + 13665; hb < "\u0676".length; hb++)
+            gb += String.fromCharCode(E + -3155 + 6442 ^ "\u0676".charCodeAt(hb));
+        for (var ib = "", jb = xa + 2579; jb < "\u0a88".length; jb++)
+            ib += String.fromCharCode(K + 9851 - 9876 ^ "\u0a88".charCodeAt(jb));
+        for (var kb = "", lb = 0; lb < "\u0227".length; lb++)
+            kb += String.fromCharCode(da + 4223 ^ "\u0227".charCodeAt(lb));
+        for (var mb = "", nb = 0; nb < "\u043e".length; nb++)
+            mb += String.fromCharCode(ya + E + 9851 - 4347 ^ "\u043e".charCodeAt(nb));
+        for (var ob = "", pb = 0; pb < "\u07e1".length; pb++)
+            ob += String.fromCharCode(za + S + fa - 4523 ^ "\u07e1".charCodeAt(pb));
+        for (var qb = "", rb = -215 + L + F + 6127; rb < "\u0305".length; rb++)
+            qb += String.fromCharCode(889 ^ "\u0305".charCodeAt(rb));
+        for (var sb = "", tb = Aa + -6842 + 7201; tb < "".length; tb++)
+            sb += String.fromCharCode(z + Ba + 3363 ^ "".charCodeAt(tb));
+        for (var ub = "", vb = ba + Ca + Da - 4446; vb < "".length; vb++)
+            ub += String.fromCharCode(aa + y + 4989 ^ "".charCodeAt(vb));
+        for (var wb = "", xb = -7878 + $ + y + 16828; xb < "".length; xb++)
+            wb += String.fromCharCode(3628 + Ea + 2321 ^ "".charCodeAt(xb));
+        for (var yb = "", zb = Fa + Ga + Ha - 10082; zb < "\xb4\xb9\xb2\xaf".length; zb++)
+            yb += String.fromCharCode(Ia + 5817 - 5364 ^ "\xb4\xb9\xb2\xaf".charCodeAt(zb));
+        for (var Ab = "", Bb = Z + u + -1665 - 4436; Bb < "\u06d8\u06d5\u06de\u06c3".length; Bb++)
+            Ab += String.fromCharCode(Ja + 146 + -4109 + 529 ^ "\u06d8\u06d5\u06de\u06c3".charCodeAt(Bb));
+        for (var Cb = "", Db = Ka + 9456 - 19159; Db < "\u0668\u0669\u0668\u0663".length; Db++)
+            Cb += String.fromCharCode(1542 ^ "\u0668\u0669\u0668\u0663".charCodeAt(Db));
+        for (var Eb = "", Fb = ea + ha + X + 3846; Fb < "\xc1\xcc".length; Fb++)
+            Eb += String.fromCharCode(168 ^ "\xc1\xcc".charCodeAt(Fb));
+        for (var Gb = "", Hb = ga + 7940; Hb < "\u06c6\u06cb\u06d4".length; Hb++)
+            Gb += String.fromCharCode(1698 ^ "\u06c6\u06cb\u06d4".charCodeAt(Hb));
+        for (var Ib = "", Jb = 0, Kb = "\u0b36\u0b0b\u0b51\u0b5e\u0b08\u0b0d\u0b0d\u0b51\u0b59\u0b36"; Jb < Kb.length; Jb++)
+            Ib += String.fromCharCode(9964 + La + -1265 - 7812 ^ Kb.charCodeAt(Jb));
+        for (var Lb = "", Mb = 0; Mb < "\u05d9\u05c7\u05c0\u05ca\u05c1\u05d9".length; Mb++)
+            Lb += String.fromCharCode(1454 ^ "\u05d9\u05c7\u05c0\u05ca\u05c1\u05d9".charCodeAt(Mb));
+        switch (c) {
+            case 0:
+                var Nb = [];
+                window[Lb] === window ? Nb.push(o + M + Ma - 12906) : Nb.push(Na + 5538);
+                try {
+                    var Ob = Ib + Math.floor(1e7 * Math.random())
+                        , Pb = document.createElement(Gb);
+                    Pb.setAttribute(Eb, Ob),
+                        Pb.style.La = Cb,
+                        (document.body || document.getElementsByTagName(Ab)[0]).appendChild(Pb),
+                        document.getElementById(Ob) ? Nb.push(0) : Nb.push(1),
+                        (document.body || document.getElementsByTagName(yb)[Oa + h + Pa - 8151]).removeChild(Pb)
+                } catch (Qb) {
+                    Nb.push(-1361 + Qa + 1879)
+                }
+                return Nb.join(wb);
+            case 1:
+                var Rb = arguments[x + 5347]
+                    , Sb = new fb.a.f.init([1332468387, -1641050960, Ra + R + 2136881301, -1629555948], ya + 2689)
+                    , Tb = new fb.a.f.init([Sa + w + 22041281, Y + Ta + 1457907509, 776125350, -(-7878 + _ + -5975 + 1942018983)], Ua + 4647);
+                return fb.Ga.$(Rb, Sb, {
+                    ra: Tb,
+                    ba: fb.ba.la,
+                    qa: fb.na.ma
+                }).xa.toString().toUpperCase();
+            case Va + Wa - 5967:
+                return (_b = arguments[Xa + -1708 + Ya + 5932]) ? _b.length > 8011 + H - 16329 ? _b.substr(6968 + Za - 7677, 48) : _b : ub;
+            case 3:
+                var Ub = window.document.URL
+                    , Vb = window.navigator.userAgent.toLowerCase()
+                    , Wb = sb;
+                window.document.referrer.length > -11220 + $a + 18473 && (Wb = window.document.referrer);
+                try {
+                    Wb.length == _a - 8815 && opener.location.href.length > 0 && (Wb = opener.location.href)
+                } catch (Xb) { }
+                var Yb = window.navigator.appCodeName
+                    , Zb = window.navigator.appName
+                    , $b = window.navigator.platform;
+                return Ub = a(Ub),
+                    Wb = a(Wb),
+                    Ub + qb + (Vb = a(Vb)) + ob + Wb + mb + Yb + kb + Zb + ib + $b;
+            case ab + J + ca - 11490:
+                var _b = arguments[1]
+                    , ac = bb + -1434 - 689;
+                if (_b.length == s + ca + cb - 13491)
+                    return ac;
+                for (i = db + 1003 + 4059 - 782; i < _b.length; i++)
+                    char = _b.charCodeAt(i),
+                        ac = (ac << 8276 + j - 10445) - ac + char,
+                        ac &= ac;
+                return ac;
+            case eb + 8945:
+                var bc = gb + arguments[B + i + 8787] + W + arguments[2] + U + P + N + arguments[3] + C + arguments[t + z + q - 3244] + r + arguments[y + Na + -1658 + 11280] + n + function () {
+                    return b.call(this, ja - 5974)
+                }() + k + function () {
+                    return b.call(this, 0)
+                }() + f;
+                return function (a) {
+                    return b.call(this, 1, a)
+                }(d + (ac = function (a) {
+                    return b.call(this, v + 1735, a)
+                }(bc)) + bc)
+        }
+    }
+    var c, d, e, f, g, h = 1836, i = -8290, j = 2174, k = -957, l = -2285, m = 3198, n = -9220, o = 5906, p = 8126, q = -3571, r = -213, s = 2249, t = -693, u = -327, v = -1731, w = 1765, x = -5346, y = -4080, z = 7512, A = 4359, B = -496, C = -4191, D = 2007, E = -1741, F = 700, G = -137, H = 8366, I = -6006, J = 9095, K = 2829, L = -6612, M = 2907, N = -450, O = -4002, P = 9852, Q = -3683, R = 8972, S = 5031, T = -1124, U = 847, V = -2667, W = -1169, X = 3738, Y = 4510, Z = 6428, $ = -4870, _ = -5763, aa = -132, ba = 9425, ca = 9587, da = -3620, ea = -955, fa = 9508, ga = -7940, ha = -6629, ia = 5513, ja = 5977, ka = -4547, la = -3840, ma = -2175, na = 8487, oa = -6720, pa = 6747, qa = 6090, ra = -9874, sa = -6246, ta = 9031, ua = 2239, va = -8467, wa = -955, xa = -2579, ya = -2673, za = -8067, Aa = -359, Ba = -7307, Ca = 291, Da = -5270, Ea = -3336, Fa = -1623, Ga = 7936, Ha = 3769, Ia = -239, Ja = 5156, Ka = 9703, La = 2034, Ma = 4093, Na = -5537, Oa = -657, Pa = 6972, Qa = -517, Ra = 5772, Sa = -3763, Ta = 8444, Ua = -4631, Va = -1401, Wa = 7370, Xa = -1755, Ya = -2468, Za = 709, $a = -7253, _a = 8815, ab = -7188, bb = 2123, cb = 1655, db = -4280, eb = -8940, fb = fb || function (a, b) {
+        var c = {}
+            , d = c.a = {}
+            , e = function () { }
+            , f = d.b = {
+                c: function (a) {
+                    for (var b = "", c = 0; c < "\u0945\u0942\u0945\u0958".length; c++)
+                        b += String.fromCharCode(h + 9807 - 9295 ^ "\u0945\u0942\u0945\u0958".charCodeAt(c));
+                    e.prototype = this;
+                    var d = new e;
+                    return a && d.d(a),
+                        d.hasOwnProperty(b) || (d.init = function () {
+                            d.$super.init.apply(this, arguments)
+                        }
+                        ),
+                        d.init.prototype = d,
+                        d.$super = this,
+                        d
+                },
+                create: function () {
+                    var a = this.c();
+                    return a.init.apply(a, arguments),
+                        a
+                },
+                init: function () { },
+                d: function (a) {
+                    for (var b = "", c = 0; c < "\u037e\u0365\u0359\u037e\u0378\u0363\u0364\u036d".length; c++)
+                        b += String.fromCharCode(778 ^ "\u037e\u0365\u0359\u037e\u0378\u0363\u0364\u036d".charCodeAt(c));
+                    for (var d in a)
+                        a.hasOwnProperty(d) && (this[d] = a[d]);
+                    a.hasOwnProperty(b) && (this.toString = a.toString)
+                },
+                e: function () {
+                    return this.init.prototype.c(this)
+                }
+            }
+            , g = d.f = f.c({
+                init: function (a, b) {
+                    a = this.g = a || [],
+                        this.h = void 0 != b ? b : (-2630 + i + 10924) * a.length
+                },
+                toString: function (a) {
+                    return (a || q).i(this)
+                },
+                concat: function (a) {
+                    var b = this.g
+                        , c = a.g
+                        , d = this.h;
+                    if (a = a.h,
+                        this.j(),
+                        d % (j + -269 + -4213 + 2312))
+                        for (var e = 0; e < a; e++)
+                            b[d + e >>> 2] |= (c[e >>> 2] >>> 24 - e % 4 * 8 & 255) << 24 - (d + e) % (-9975 + j + -4490 + 12295) * 8;
+                    else if (65535 < c.length)
+                        for (e = 0; e < a; e += 4)
+                            b[d + e >>> 2] = c[e >>> k + 959];
+                    else
+                        b.push.apply(b, c);
+                    return this.h += a,
+                        this
+                },
+                j: function () {
+                    var b = this.g
+                        , c = this.h;
+                    b[c >>> 8517 + h + -2630 - 7721] &= h + 8309 + -4849 + 4294961999 << 32 - (h + -8270 + 6442) * (c % 4),
+                        b.length = a.ceil(c / 4)
+                },
+                e: function () {
+                    var a = f.e.call(this);
+                    return a.g = this.g.slice(0),
+                        a
+                },
+                random: function (b) {
+                    for (var c = [], d = 0; d < b; d += 4)
+                        c.push(4294967296 * a.random() | -8555 + l + 376 + 10464);
+                    return new g.init(c, b)
+                }
+            })
+            , p = c.k = {}
+            , q = p.l = {
+                i: function (a) {
+                    for (var b = "", c = 0; c < "".length; c++)
+                        b += String.fromCharCode(368 ^ "".charCodeAt(c));
+                    var d = a.g;
+                    a = a.h;
+                    for (var e = [], f = 0; f < a; f++) {
+                        var g = d[f >>> 2] >>> 24 - f % (m + 5624 - 8818) * 8 & 255;
+                        e.push((g >>> 4).toString(16)),
+                            e.push((15 & g).toString(16))
+                    }
+                    return e.join(b)
+                },
+                parse: function (a) {
+                    for (var b = a.length, c = [], d = 0; d < b; d += 2)
+                        c[d >>> n + 9223] |= parseInt(a.substr(d, 2), 16) << 24 - d % 8 * 4;
+                    return new g.init(c, b / 2)
+                }
+            }
+            , r = p.m = {
+                i: function (a) {
+                    for (var b = "", c = 0; c < "".length; c++)
+                        b += String.fromCharCode(2238 ^ "".charCodeAt(c));
+                    var d = a.g;
+                    a = a.h;
+                    for (var e = [], f = 0; f < a; f++)
+                        e.push(String.fromCharCode(d[f >>> 2] >>> 8383 + k - 7402 - f % 4 * 8 & 255));
+                    return e.join(b)
+                },
+                parse: function (a) {
+                    for (var b = a.length, c = [], d = o - 5906; d < b; d++)
+                        c[d >>> 2] |= (255 & a.charCodeAt(d)) << 24 - d % 4 * 8;
+                    return new g.init(c, b)
+                }
+            }
+            , s = p.n = {
+                i: function (a) {
+                    for (var b = "", c = 0, d = "\xd8\xf4\xf9\xf3\xfa\xe7\xf8\xf0\xf1\xb5\xc0\xc1\xd3\xb8\xad\xb5\xf1\xf4\xe1\xf4"; c < d.length; c++)
+                        b += String.fromCharCode(149 ^ d.charCodeAt(c));
+                    try {
+                        return decodeURIComponent(escape(r.i(a)))
+                    } catch (e) {
+                        throw Error(b)
+                    }
+                },
+                parse: function (a) {
+                    return r.parse(unescape(encodeURIComponent(a)))
+                }
+            }
+            , t = d.o = f.c({
+                p: function () {
+                    this.q = new g.init,
+                        this.r = h - 1836
+                },
+                s: function (a) {
+                    for (var b = "", c = 0; c < "\u0fa7\u0fa0\u0fa6\u0fbd\u0fba\u0fb3".length; c++)
+                        b += String.fromCharCode(4052 ^ "\u0fa7\u0fa0\u0fa6\u0fbd\u0fba\u0fb3".charCodeAt(c));
+                    b == typeof a && (a = s.parse(a)),
+                        this.q.concat(a),
+                        this.r += a.h
+                },
+                t: function (b) {
+                    var c = this.q
+                        , d = c.g
+                        , e = c.h
+                        , f = this.u
+                        , h = e / (4 * f);
+                    if (b = (h = b ? a.ceil(h) : a.max((0 | h) - this.v, 0)) * f,
+                        e = a.min(4 * b, e),
+                        b) {
+                        for (var i = 0; i < b; i += f)
+                            this.w(d, i);
+                        i = d.splice(0, b),
+                            c.h -= e
+                    }
+                    return new g.init(i, e)
+                },
+                e: function () {
+                    var a = f.e.call(this);
+                    return a.q = this.q.e(),
+                        a
+                },
+                v: 0
+            });
+        d.x = t.c({
+            y: f.c(),
+            init: function (a) {
+                this.y = this.y.c(a),
+                    this.p()
+            },
+            p: function () {
+                t.p.call(this),
+                    this.z()
+            },
+            A: function (a) {
+                return this.s(a),
+                    this.t(),
+                    this
+            },
+            B: function (a) {
+                return a && this.s(a),
+                    this.C()
+            },
+            u: 16,
+            D: function (a) {
+                return function (b, c) {
+                    return new a.init(c).B(b)
+                }
+            },
+            F: function (a) {
+                return function (b, c) {
+                    return new u.HMAC.init(a, c).B(b)
+                }
+            }
+        });
+        var u = c.G = {};
+        return c
+    }(Math);
+
+    return function () {
+        for (var a = "", b = 0, c = "\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9a\x9b\x9c\x9d\x9e\x9f\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\xb1\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xbb\xbc\xbd\xbe\xbf\xa0\xa1\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xfb\xff\xed"; b < c.length; b++)
+            a += String.fromCharCode(208 ^ c.charCodeAt(b));
+        var d = fb
+            , e = d.a.f;
+        d.k.H = {
+            i: function (a) {
+                for (var b = "", c = 0; c < "".length; c++)
+                    b += String.fromCharCode(4077 ^ "".charCodeAt(c));
+                var d = a.g
+                    , e = a.h
+                    , f = this.I;
+                a.j(),
+                    a = [];
+                for (var g = 0; g < e; g += 3)
+                    for (var h = (d[g >>> 2] >>> 24 - g % 4 * 8 & 255) << p + -9200 + 1090 | (d[g + (l + 7275 - 4989) >>> 2] >>> 24 - (g + 1) % 4 * 8 & 255) << 8 | d[g + 2 >>> 2] >>> q + 3595 - (g + 2) % 4 * 8 & 255, i = 0; 4 > i && g + .75 * i < e; i++)
+                        a.push(f.charAt(h >>> 6 * (3 - i) & 63));
+                if (d = f.charAt(64))
+                    for (; a.length % 4;)
+                        a.push(d);
+                return a.join(b)
+            },
+            parse: function (a) {
+                var b = a.length
+                    , c = this.I;
+                (d = c.charAt(64)) && -1 != (d = a.indexOf(d)) && (b = d);
+                for (var d = [], f = 0, g = 0; g < b; g++)
+                    if (g % 4) {
+                        var h = c.indexOf(a.charAt(g - 1)) << g % (r + 1860 + 5724 - 7367) * 2
+                            , i = c.indexOf(a.charAt(g)) >>> 6 - g % 4 * 2;
+                        d[f >>> p + -6116 + 4162 - 6170] |= (h | i) << 24 - f % 4 * 8,
+                            f++
+                    }
+                return e.create(d, f)
+            },
+            I: a
+        }
+    }(),
+        function (a) {
+            function b(a, b, c, d, e, h, i) {
+                return f.call(this, 2727 + g + 2727 - 7318, a, b, c, d, e, h, i)
+            }
+            function c(a, b, c, d, e, h, i) {
+                return f.call(this, g + -3418 + 1555, a, b, c, d, e, h, i)
+            }
+            function d(a, b, c, d, e, h, j) {
+                return f.call(this, g + i + -406 + 4647, a, b, c, d, e, h, j)
+            }
+            function e(a, b, c, d, e, g, h) {
+                return f.call(this, k + 1320 + 1320 - 1680, a, b, c, d, e, g, h)
+            }
+            function f(a) {
+                switch (a) {
+                    case 0:
+                        var b = arguments[1]
+                            , c = arguments[ea + 7592 + 7592 - 20100]
+                            , d = arguments[ga + ha - 7012]
+                            , e = arguments[fa + ia + 1567]
+                            , f = arguments[-1789 + ja - 503]
+                            , g = arguments[ka + la + l + 20776];
+                        return ((b = b + (c & d | ~c & e) + f + arguments[7]) << g | b >>> 32 - g) + c;
+                    case ma + Y + 11708:
+                        return b = arguments[na + 7051],
+                            c = arguments[A + 4673 + P - 18882],
+                            d = arguments[ca + J + n - 6198],
+                            e = arguments[Q + R + S - 10316],
+                            f = arguments[T + C + Z + 12875],
+                            g = arguments[6],
+                            ((b = b + (c & e | d & ~e) + f + arguments[7]) << g | b >>> -9475 + oa + J + 1645 - g) + c;
+                    case $ + 460:
+                        return b = arguments[D + v - 275],
+                            c = arguments[O + U + 3157],
+                            d = arguments[pa + -6801 + 14678],
+                            e = arguments[ca + _ - 7393],
+                            f = arguments[ba + qa + 36 - 3310],
+                            g = arguments[p + K - 10949],
+                            ((b = b + (c ^ d ^ e) + f + arguments[7]) << g | b >>> 32 - g) + c;
+                    case ra + sa + V + 2160:
+                        return b = arguments[1],
+                            c = arguments[7592 + W + 4673 - 11094],
+                            d = arguments[D + aa - 2931],
+                            e = arguments[5298 + N + -4862 + 18],
+                            f = arguments[ta - 4630],
+                            g = arguments[K + -6978 + 4155],
+                            ((b = b + (d ^ (c | ~e)) + f + arguments[r + 220]) << g | b >>> -8328 + da + -2734 + 15298 - g) + c
+                }
+            }
+            for (var g = 1864, i = -6103, X = -5750, Y = -5616, Z = -7555, $ = -458, _ = 1071, aa = 927, ba = -2568, ca = 6326, da = -4204, ea = 4918, fa = 7574, ga = 6160, ha = 855, ia = -9137, ja = 2297, ka = -9619, la = -8866, ma = -6091, na = -7050, oa = -1233, pa = -7874, qa = 5847, ra = 5062, sa = -4552, ta = 4635, ua = fb, va = (xa = ua.a).f, wa = xa.x, xa = ua.G, ya = [], za = g - 1864; -12185 + l + 14534 > za; za++)
+                ya[za] = (i + -7357 + X + 4294986506) * a.abs(a.sin(za + (-7343 + l + X + 15379))) | 0;
+            xa = xa.J = wa.c({
+                z: function () {
+                    this.K = new va.init([1732584193, 4023233417, 2562383102, 9348 + q + 7556 + 271720545])
+                },
+                w: function (a, f) {
+                    for (var l = 4921 + i + 1182; 16 > l; l++) {
+                        var n = a[P = f + l];
+                        a[P] = 16711935 & (n << 5017 + g + 4620 - 11493 | n >>> Y + 5640) | 4278255360 & (n << 24 | n >>> 8)
+                    }
+                    l = this.K.g;
+                    var q, O, P = a[f + 0], Q = (n = a[f + 1],
+                        a[f + (s - 2247)]), R = a[f + 3], S = a[f + 4], T = a[f + 5], U = a[f + (Y + s + 5624 - 2251)], V = a[f + 7], W = a[f + 8], ea = a[f + 9], fa = a[f + 10], ga = a[f + 11], ha = a[f + 12], ia = a[f + (i + j + 3942)], ja = a[f + 14], ka = a[f + (14808 + i - 8690)], la = l[-1465 + h - 371], ma = e(ma = e(ma = e(ma = e(ma = d(ma = d(ma = d(ma = d(ma = c(ma = c(ma = c(ma = c(ma = b(ma = b(ma = b(ma = b(ma = l[1], O = b(O = l[2], q = b(q = l[3], la = b(la, ma, O, q, P, 7, ya[-2964 + p - 5162]), ma, O, n, 12, ya[1]), la, ma, Q, 5903 + Y - 270, ya[2]), q, la, R, 22, ya[3]), O = b(O, q = b(q, la = b(la, ma, O, q, S, 7, ya[4]), ma, O, T, 12, ya[5]), la, ma, U, 17, ya[6]), q, la, V, 22, ya[7]), O = b(O, q = b(q, la = b(la, ma, O, q, W, 7, ya[8]), ma, O, ea, 12, ya[9]), la, ma, fa, 4264 + Y + 1369, ya[-3423 + t + 4126]), q, la, ga, 22, ya[11]), O = b(O, q = b(q, la = b(la, ma, O, q, ha, o - 5899, ya[12]), ma, O, ia, 12, ya[t + -2344 + 3050]), la, ma, ja, 17, ya[1227 + Z + 6342]), q, la, ka, -8569 + r + 8804, ya[$ + -1821 + 806 + 1488]), O = c(O, q = c(q, la = c(la, ma, O, q, n, i + -1310 + Y + 13034, ya[16]), ma, O, U, 9, ya[g + u + -7697 + 6177]), la, ma, ga, v + -5305 + 7539 - 489, ya[18]), q, la, P, w + -571 + 6443 - 7617, ya[19]), O = c(O, q = c(q, la = c(la, ma, O, q, T, 5, ya[_ - 1051]), ma, O, fa, 9, ya[21]), la, ma, ka, 14, ya[x + X + -8178 + 19296]), q, la, S, 20, ya[-11385 + y + 15488]), O = c(O, q = c(q, la = c(la, ma, O, q, ea, 5, ya[24]), ma, O, ja, 9, ya[25]), la, ma, R, -912 + z + A - 10945, ya[aa - 901]), q, la, W, 12598 + ba - 10010, ya[27]), O = c(O, q = c(q, la = c(la, ma, O, q, ia, 5, ya[-4202 + ca - 2096]), ma, O, Q, 9, ya[29]), la, ma, V, B + Y + ca - 200, ya[30]), q, la, ha, ba + 9955 - 7367, ya[7539 + p + 42 - 15676]), O = d(O, q = d(q, la = d(la, ma, O, q, T, 4, ya[32]), ma, O, W, g - 1853, ya[33]), la, ma, ga, B + 9362 - 8850, ya[34]), q, la, ja, t + 716, ya[35]), O = d(O, q = d(q, la = d(la, ma, O, q, n, -5345 + C + 9540, ya[36]), ma, O, S, 11, ya[37]), la, ma, V, 16, ya[38]), q, la, fa, 23, ya[39]), O = d(O, q = d(q, la = d(la, ma, O, q, ia, Y + $ + D + 4071, ya[40]), ma, O, P, E + 1752, ya[41]), la, ma, R, 16, ya[42]), q, la, U, 23, ya[43]), O = d(O, q = d(q, la = d(la, ma, O, q, ea, 4, ya[44]), ma, O, ha, 11, ya[45]), la, ma, ka, y + 4096, ya[46]), q, la, Q, k + 8387 + -9793 + 2386, ya[47]), O = e(O, q = e(q, la = e(la, ma, O, q, P, X + F + 5056, ya[G + 185]), ma, O, V, z - 7502, ya[49]), la, ma, ja, 4376 + H + 3667 - 16394, ya[50]), q, la, T, I + -983 + 7010, ya[51]), O = e(O, q = e(q, la = e(la, ma, O, q, ha, 42 + s + 656 - 2941, ya[52]), ma, O, R, 10, ya[53]), la, ma, fa, 2553 + J + -8569 - 3064, ya[54]), q, la, n, 21, ya[3412 + x + 1989]), O = e(O, q = e(q, la = e(la, ma, O, q, W, 6, ya[56]), ma, O, ka, 2260 + $ - 1792, ya[-6071 + K + 3299]), la, ma, U, 15, ya[-990 + da + 5252]), q, la, ia, 4121 + m - 7298, ya[59]), O = e(O, q = e(q, la = e(la, ma, O, q, S, 6, ya[L + 6672]), ma, O, ga, 10, ya[61]), la, ma, Q, 15, ya[62]), q, la, ea, 21, ya[63]);
+                    l[M - 2907] = l[0] + la | 0,
+                        l[1] = l[1] + ma | 0,
+                        l[2] = l[2] + O | 0,
+                        l[3] = l[3] + q | -11860 + N + 12310
+                },
+                C: function () {
+                    var b = this.q
+                        , c = b.g
+                        , d = (6876 + $ + -335 - 6075) * this.r
+                        , e = 8 * b.h;
+                    c[e >>> 8761 + ea + 1268 - 14942] |= 128 << C + 4215 - e % 32;
+                    var f = a.floor(d / 4294967296);
+                    for (c[15 + (e + 64 >>> 9 << O + 4006)] = 16711935 & (f << 8 | f >>> 24) | 4278255360 & (f << 24 | f >>> 8),
+                        c[14 + (e + (D + -6251 + 4308) >>> 9 << 4)] = 16711935 & (d << 8 | d >>> 24) | 4278255360 & (d << 24 | d >>> 8),
+                        b.h = 4 * (c.length + 1),
+                        this.t(),
+                        c = (b = this.K).g,
+                        d = 0; 4 > d; d++)
+                        e = c[d],
+                            c[d] = 16711935 & (e << 8 | e >>> 24) | 4278255360 & (e << 24 | e >>> 2244 + fa + 2814 - 12624);
+                    return b
+                },
+                e: function () {
+                    var a = wa.e.call(this);
+                    return a.K = this.K.e(),
+                        a
+                }
+            }),
+                ua.J = wa.D(xa),
+                ua.L = wa.F(xa)
+        }(Math),
+        e = (c = (d = fb).a).b,
+        f = c.f,
+        g = (c = d.G).M = e.c({
+            y: e.c({
+                N: 4,
+                O: c.J,
+                P: 1
+            }),
+            init: function (a) {
+                this.y = this.y.c(a)
+            },
+            Q: function (a, b) {
+                for (var c = (h = this.y).O.create(), d = f.create(), e = d.g, g = h.N, h = h.P; e.length < g;) {
+                    i && c.A(i);
+                    var i = c.A(a).B(b);
+                    c.p();
+                    for (var j = 1; j < h; j++)
+                        i = c.B(i),
+                            c.p();
+                    d.concat(i)
+                }
+                return d.h = 4 * g,
+                    d
+            }
+        }),
+        d.M = function (a, b, c) {
+            return g.create(c).Q(a, b)
+        }
+        ,
+        fb.a.R || function (a) {
+            var b = (o = fb).a
+                , c = b.b
+                , d = b.f
+                , e = b.o
+                , f = o.k.H
+                , g = o.G.M
+                , h = b.R = e.c({
+                    y: c.c(),
+                    S: function (a, b) {
+                        return this.create(this.T, a, b)
+                    },
+                    U: function (a, b) {
+                        return this.create(this.V, a, b)
+                    },
+                    init: function (a, b, c) {
+                        this.y = this.y.c(c),
+                            this.W = a,
+                            this.X = b,
+                            this.p()
+                    },
+                    p: function () {
+                        e.p.call(this),
+                            this.z()
+                    },
+                    Y: function (a) {
+                        return this.s(a),
+                            this.t()
+                    },
+                    B: function (a) {
+                        return a && this.s(a),
+                            this.C()
+                    },
+                    N: w - 1761,
+                    Z: 4,
+                    T: 1,
+                    V: 2,
+                    D: function (a) {
+                        return {
+                            $: function (b, c, d) {
+                                for (var e = "", f = 0; f < "\u01e0\u01e7\u01e1\u01fa\u01fd\u01f4".length; f++)
+                                    e += String.fromCharCode(403 ^ "\u01e0\u01e7\u01e1\u01fa\u01fd\u01f4".charCodeAt(f));
+                                return (e == typeof c ? p : n).$(a, b, c, d)
+                            },
+                            _: function (b, c, d) {
+                                for (var e = "", f = 0; f < "\u08d8\u08df\u08d9\u08c2\u08c5\u08cc".length; f++)
+                                    e += String.fromCharCode(2219 ^ "\u08d8\u08df\u08d9\u08c2\u08c5\u08cc".charCodeAt(f));
+                                return (e == typeof c ? p : n)._(a, b, c, d)
+                            }
+                        }
+                    }
+                });
+            b.aa = h.c({
+                C: function () {
+                    return this.t(!0)
+                },
+                u: 1
+            });
+            var i = o.ba = {}
+                , j = function (a, b, c) {
+                    var d = this.ca;
+                    d ? this.ca = void 0 : d = this.da;
+                    for (var e = 0; e < c; e++)
+                        a[b + e] ^= d[e]
+                }
+                , l = (b.ea = c.c({
+                    S: function (a, b) {
+                        return this.fa.create(a, b)
+                    },
+                    U: function (a, b) {
+                        return this.ga.create(a, b)
+                    },
+                    init: function (a, b) {
+                        this.ha = a,
+                            this.ca = b
+                    }
+                })).c();
+            l.fa = l.c({
+                ia: function (a, b) {
+                    var c = this.ha
+                        , d = c.u;
+                    j.call(this, a, b, d),
+                        c.ja(a, b),
+                        this.da = a.slice(b, b + d)
+                }
+            }),
+                l.ga = l.c({
+                    ia: function (a, b) {
+                        var c = this.ha
+                            , d = c.u
+                            , e = a.slice(b, b + d);
+                        c.ka(a, b),
+                            j.call(this, a, b, d),
+                            this.da = e
+                    }
+                }),
+                i = i.la = l,
+                l = (o.na = {}).ma = {
+                    na: function (a, b) {
+                        for (var c, e = (c = (c = 4 * b) - a.h % c) << 24 | c << 16 | c << 8 | c, f = [], g = 6180 + K + -1259 - 7750; g < c; g += X + 6428 - 10162)
+                            f.push(e);
+                        c = d.create(f, c),
+                            a.concat(c)
+                    },
+                    oa: function (a) {
+                        a.h -= 255 & a.g[a.h - 1 >>> 2]
+                    }
+                },
+                b.pa = h.c({
+                    y: h.y.c({
+                        ba: i,
+                        qa: l
+                    }),
+                    p: function () {
+                        h.p.call(this);
+                        var a = (b = this.y).ra
+                            , b = b.ba;
+                        if (this.W == this.T)
+                            var c = b.S;
+                        else
+                            c = b.U,
+                                this.v = 1;
+                        this.sa = c.call(b, this, a && a.g)
+                    },
+                    w: function (a, b) {
+                        this.sa.ia(a, b)
+                    },
+                    C: function () {
+                        var a = this.y.qa;
+                        if (this.W == this.T) {
+                            a.na(this.q, this.u);
+                            var b = this.t(!0)
+                        } else
+                            b = this.t(!0),
+                                a.oa(b);
+                        return b
+                    },
+                    u: V + -6989 + -3440 + 13100
+                });
+            var m = b.ta = c.c({
+                init: function (a) {
+                    this.d(a)
+                },
+                toString: function (a) {
+                    return (a || this.ua).i(this)
+                }
+            })
+                , n = (i = (o.wa = {}).va = {
+                    i: function (a) {
+                        var b = a.xa;
+                        return ((a = a.ya) ? d.create([1398893684, 6475 + D + 1701068349]).concat(a).concat(b) : b).toString(f)
+                    },
+                    parse: function (a) {
+                        var b = (a = f.parse(a)).g;
+                        if (1398893684 == b[0] && 1701076831 == b[1]) {
+                            var c = d.create(b.slice(2, 4));
+                            b.splice(0, 4),
+                                a.h -= 16
+                        }
+                        return m.create({
+                            xa: a,
+                            ya: c
+                        })
+                    }
+                },
+                    b.za = c.c({
+                        y: c.c({
+                            wa: i
+                        }),
+                        $: function (a, b, c, d) {
+                            d = this.y.c(d);
+                            var e = a.S(c, d);
+                            return b = e.B(b),
+                                e = e.y,
+                                m.create({
+                                    xa: b,
+                                    Aa: c,
+                                    ra: e.ra,
+                                    Ba: a,
+                                    ba: e.ba,
+                                    qa: e.qa,
+                                    u: a.u,
+                                    ua: d.wa
+                                })
+                        },
+                        _: function (a, b, c, d) {
+                            return d = this.y.c(d),
+                                b = this.Ca(b, d.wa),
+                                a.U(c, d).B(b.xa)
+                        },
+                        Ca: function (a, b) {
+                            for (var c = "", d = -8390 + Y + 3880; d < "\u0815\u0812\u0814\u080f\u0808\u0801".length; d++)
+                                c += String.fromCharCode(2150 ^ "\u0815\u0812\u0814\u080f\u0808\u0801".charCodeAt(d));
+                            return c == typeof a ? b.parse(a, this) : a
+                        }
+                    }))
+                , o = (o.Da = {}).va = {
+                    Ea: function (a, b, c, e) {
+                        return e || (e = d.random(k + 4678 + -4737 + 1024)),
+                            a = g.create({
+                                N: b + c
+                            }).Q(a, e),
+                            c = d.create(a.g.slice(b), 4 * c),
+                            a.h = 4 * b,
+                            m.create({
+                                Aa: a,
+                                ra: c,
+                                ya: e
+                            })
+                    }
+                }
+                , p = b.Fa = n.c({
+                    y: n.y.c({
+                        Da: o
+                    }),
+                    $: function (a, b, c, d) {
+                        return c = (d = this.y.c(d)).Da.Ea(c, a.N, a.Z),
+                            d.ra = c.ra,
+                            (a = n.$.call(this, a, b, c.Aa, d)).d(c),
+                            a
+                    },
+                    _: function (a, b, c, d) {
+                        return d = this.y.c(d),
+                            b = this.Ca(b, d.wa),
+                            c = d.Da.Ea(c, a.N, a.Z, b.ya),
+                            d.ra = c.ra,
+                            n._.call(this, a, b, c.Aa, d)
+                    }
+                })
+        }(),
+        function () {
+            for (var a = fb, b = a.a.pa, c = a.G, d = [], e = [], f = [], g = [], i = [], j = [], k = [], l = [], m = [], n = [], o = [], q = U + 2043 + -9216 + 6326; 256 > q; q++)
+                o[q] = 128 > q ? q << 1 : q << Z + 4353 - 10780 ^ -4619 + $ + 9772;
+            var t = 0
+                , u = 13770 + V - 11103;
+            for (q = 8146 + s + s - 12644; 256 > q; q++) {
+                var v = (v = u ^ u << 1 ^ u << h + 7286 + 7286 - 16406 ^ u << 3 ^ u << X + 2744 - 6478) >>> 8 ^ 255 & v ^ 7286 + _ + -803 - 621;
+                d[t] = v,
+                    e[v] = t;
+                var x = o[t]
+                    , y = o[x]
+                    , z = o[y]
+                    , A = 257 * o[v] ^ 16843008 * v;
+                f[t] = A << 24 | A >>> 8,
+                    g[t] = A << 8146 + L - 1518 | A >>> 16,
+                    i[t] = A << -7226 + B + -8993 + 16723 | A >>> 24,
+                    j[t] = A,
+                    A = 16843009 * z ^ 65537 * y ^ (12950 + aa - 12561) * x ^ (ba + 6038 + ca + 16817958) * t,
+                    k[v] = A << 24 | A >>> W + 1177,
+                    l[v] = A << 16 | A >>> 16,
+                    m[v] = A << H + da - 4738 | A >>> 24,
+                    n[v] = A,
+                    t ? (t = x ^ o[o[o[z ^ x]]],
+                        u ^= o[o[u]]) : t = u = 1
+            }
+            var C = [0, 1, da + 1538 + -9246 + 11330, ea + -8064 + -6326 + 15349, 8, -7197 + fa - 2295, 32, 64, 128, 27, 54];
+            c = c.Ga = b.c({
+                z: function () {
+                    for (var a = (c = this.X).g, b = c.h / 4, c = 4 * ((this.Ha = b + 6) + 1), e = this.Ia = [], f = 0; f < c; f++)
+                        if (f < b)
+                            e[f] = a[f];
+                        else {
+                            var g = e[f - 1];
+                            f % b ? 6 < b && 4 == f % b && (g = d[g >>> 24] << 24 | d[g >>> 16 & 255] << 16 | d[g >>> 8 & 255] << 8 | d[255 & g]) : (g = d[(g = g << 8 | g >>> 24) >>> 24] << 24 | d[g >>> 16 & 255] << 16 | d[g >>> 8 & ga + 8195] << 8 | d[255 & g],
+                                g ^= C[f / b | 0] << 24),
+                                e[f] = e[f - b] ^ g
+                        }
+                    for (a = this.Ja = [],
+                        b = 0; b < c; b++)
+                        f = c - b,
+                            g = b % 4 ? e[f] : e[f - 4],
+                            a[b] = 4 > b || 4 >= f ? g : k[d[g >>> 24]] ^ l[d[g >>> 16 & 255]] ^ m[d[g >>> 8 & 255]] ^ n[d[255 & g]]
+                },
+                ja: function (a, b) {
+                    this.Ka(a, b, this.Ia, f, g, i, j, d)
+                },
+                ka: function (a, b) {
+                    var c = a[b + 1];
+                    a[b + 1] = a[b + 3],
+                        a[b + 3] = c,
+                        this.Ka(a, b, this.Ja, k, l, m, n, e),
+                        c = a[b + 1],
+                        a[b + 1] = a[b + 3],
+                        a[b + 3] = c
+                },
+                Ka: function (a, b, c, d, e, f, g, h) {
+                    for (var i = this.Ha, j = a[b] ^ c[0], k = a[b + 1] ^ c[1], l = a[b + 2] ^ c[6782 + r + 2889 - 9456], m = a[b + 3] ^ c[3], n = 4, o = 1; o < i; o++) {
+                        var q = d[j >>> 24] ^ e[k >>> 16 & 255] ^ f[l >>> 8 & 255] ^ g[255 & m] ^ c[n++]
+                            , s = d[k >>> 24] ^ e[l >>> 16 & 255] ^ f[m >>> 8 & 255] ^ g[255 & j] ^ c[n++]
+                            , t = d[l >>> 24] ^ e[m >>> 16 & 255] ^ f[j >>> 8 & w - 1510] ^ g[255 & k] ^ c[n++];
+                        m = d[m >>> 24] ^ e[j >>> 16 & 255] ^ f[k >>> -3930 + Q + 7621 & 255] ^ g[255 & l] ^ c[n++],
+                            j = q,
+                            k = s,
+                            l = t
+                    }
+                    q = (h[j >>> 24] << 24 | h[k >>> 16 & 255] << 16 | h[l >>> 8 & 255] << 8 | h[255 & m]) ^ c[n++],
+                        s = (h[k >>> 24] << 24 | h[l >>> 16 & 255] << 16 | h[m >>> 8 & 255] << 8 | h[255 & j]) ^ c[n++],
+                        t = (h[l >>> 24] << 24 | h[m >>> 16 & 255] << 16 | h[j >>> 8 & 255] << 8 | h[255 & k]) ^ c[n++],
+                        m = (h[m >>> 24] << 9424 + ha + -1219 - 1552 | h[j >>> 16 & 255] << 16 | h[k >>> 8 & 255] << 8 | h[255 & l]) ^ c[n++],
+                        a[b] = q,
+                        a[b + 1] = s,
+                        a[b + (-5365 + p - 2759)] = t,
+                        a[b + 3] = m
+                },
+                N: 8
+            }),
+                a.Ga = b.D(c)
+        }(),
+        function (a, c, d, e, f) {
+            return b.call(this, 5, a, c, d, e, f)
+        }
+}();
+
+
+function createGUID(a) {
+    a = a || 32;
+    for (var b = "", c = 1; c <= a; c++) {
+        var d = Math.floor(16 * Math.random()).toString(16);
+        b += d
+    }
+    return b;
+}
+
+function getPcPlatformId(a) {
+    if (this.d.mobile)
+        return "11001";
+    // if (a.platId && this.platformMap[a.platId])
+    //     return this.platformMap[a.platId].platform;
+    // if (d.isNewsPlugin())
+    //     return "20701";
+    // if (a && "coolOpen" == a.originalPlayerType)
+    //     return "3670201";
+    // if (a.eduext || "260001" === a.authfrom)
+    //     return d.mobile ? "261001" : "260201";
+    // if (d.inWhichDomain("sportscom"))
+    //     return "4100201";
+    var b = !official(a.href);
+    return d.os.windows ? (b ? "70201" : "10201") : (d.os.mac ? (b ? "70901" : "10901") : (b ? 70901 : 10901))
+}
+
+function official(locationHref) {
+    var a = !1
+        , b = getUrlParam("official");
+    return /^http(s?):\/\/v.qq.com\/x\/(cover|page)\//.test(locationHref) && (a = !0),
+        b && (a = !1,
+            "1" != b && "true" != b || (a = !0)),
+        a
+}
+
+
+function c_V1(a) {
+    a = a || navigator.userAgent,
+        a = a.toLowerCase(),
+        this.browser = {},
+        this.os = {},
+        this.phone = {},
+        this.mobile = !1,
+        a.indexOf("mobile") > -1 && (this.mobile = !0);
+    var b, c, d = {
+        android_1: /android[\s\/]([\d\.]+)/i,
+        android_2: /android/i,
+        android_3: /MIDP-/i,
+        ipod_1: /iPod\stouch;\sCPU\siPhone\sos\s([\d_]+)/i,
+        ipod_100: /iPod.*os\s?([\d_\.]+)/i,
+        iphone: /iPhone;\sCPU\siPhone\sos\s([\d_]+)/i,
+        iphone_100: /iPhone.*os\s?([\d_\.]+)/i,
+        ipad_1: /ipad;\scpu\sos\s([\d_]+)/i,
+        ipad_2: /ipad([\d]+)?/i,
+        windows: /windows\snt\s([\d\.]+)/i,
+        mac: /Macintosh.*mac\sos\sx\s([\d_\.]+)/i,
+        linux: /Linux/i
+    };
+    for (var e in d)
+        if (b = d[e].exec(a)) {
+            c = e.replace(/_\d+/, ""),
+                this.os[c] = !0,
+                this.os.name = c,
+                b[1] && (this.os.version = b[1].replace(/_/g, "."));
+            break
+        }
+    (this.os.iphone || this.os.ipad || this.os.ipod) && (this.os.ios = !0);
+    var f, g, h = {
+        wechat: /MicroMessenger\/([\d\.]+)/i,
+        ipadqq: /IPadQQ\/([\d\.]+)/i,
+        mqq: /qq\/([\d\.]+)/i,
+        qzone: /QZONEJSSDK\/([\d\.]+)/i,
+        mqqbrowser: /mqqbrowser\/([\d\.]+)/i,
+        qqbrowser: /[^m]QQBrowser\/([\d\.]+)/i,
+        x5: /tbs\/(\d+)/i,
+        uc: /UCBrowser\/([\d\.]+)/i,
+        safari_1: /Version\/(([\d\.]+))\sSafari\/[\d\.]+/i,
+        safari_2: /Safari\/([\d\.]+)/i,
+        firefox: /Firefox\/([\d\.]+)/i,
+        opera: /OPR\/([\d\.]+)/i,
+        ie_1: /MSIE\s([\d\.]+)/i,
+        ie_2: /(trident\/\d\.\d)/i,
+        ie_3: /(Edge)\/\d+\.\d+/i,
+        weibo: /weibo__([\d\.]+)/i,
+        qqnewsAd: /TADChid\/([\d\.]+)/i,
+        qqnews: /qqnews\/([\d\.]+)/i,
+        qqlive_1: /QQLiveBrowser\/([\d\.]+)/i,
+        qqlive_2: /QQLiveHDBrowser\/([\d\.]+)/i,
+        kuaibao: /qnreading\/([\d\.]+)/i,
+        liebao: /LieBaoFast\/([\d\.]+)/i,
+        douban: /com\.douban\.frodo\/([\d\.]+)/i,
+        miuibrowser: /MiuiBrowser/i,
+        baidu: /baiduboxapp/i,
+        browser360: /360browser/i,
+        oppobrowser: /OppoBrowser/i,
+        chrome_1: /CriOS\/([\d\.]+)/i,
+        chrome_2: /Chrome\/([\d\.]+)/i,
+        qqdownloader: /qqdownloader\/([\d\.]+)/i
+    };
+    for (var i in h)
+        if (f = h[i].exec(a)) {
+            if (g = i.replace(/_\d+/, ""),
+                this.browser[g])
+                return;
+            this.browser[g] = {
+                version: f[1]
+            }
+        }
+    if (/windows/i.test(a) && /qqlive/i.test(a) && window.external && window.external.GetProtocalVersion && "function" == typeof window.external.GetProtocalVersion) {
+        var j = window.external.GetProtocalVersion();
+        this.browser.pcqqlive = {
+            version: j
+        }
+    }
+    /mac\sos/i.test(a) && /qqlive_mac/i.test(a) && (this.browser.macqqlive = {}),
+        this.os.android && this.browser.safari && delete this.browser.safari,
+        this.browser.chrome && this.browser.safari && delete this.browser.safari,
+        this.browser.ie && this.browser.ie.version && this.browser.ie.version.indexOf("trident") > -1 && (this.browser.ie.version.indexOf("6.0") > -1 ? this.browser.ie.version = "10" : this.browser.ie.version.indexOf("5.0") > -1 ? this.browser.ie.version = "9" : this.browser.ie.version.indexOf("4.0") > -1 ? this.browser.ie.version = "8" : this.browser.ie.version = "11");
+    var k, l = {
+        ipod: /iPod/i,
+        ipad: /iPad/i,
+        iphone: /iPhone/i,
+        huawei_1: /HUAWEI([\w_-]+)/i,
+        huawei_2: /(CHM-\w+)/i,
+        huawei_3: /(HonorChe)/i,
+        huawei_4: /HONORPLK/i,
+        huawei_5: /(Che\d+-CL\d+)/i,
+        huawei_6: /(H\d+-L\d+)/i,
+        huawei_100: /HUAWEI/i,
+        xiaomi_1: /(HM\sNOTE)/i,
+        xiaomi_2: /(HM\s\w+)/i,
+        xiaomi_3: /(MI\s\w+)/i,
+        xiaomi_4: /(MI-ONE\sPlus)/i,
+        xiaomi_5: /(M1)\sBuild/i,
+        xiaomi_6: /(HM\d+)/i,
+        xiaomi_7: /Xiaomi[\s_]?([\w_]+)/i,
+        samsung_1: /(GT-\w+)/i,
+        samsung_2: /(SCH-\w+)/i,
+        samsung_3: /(SM-\w+)/i,
+        vivo: /vivo\s(\w+)/i,
+        oneplus: /ONEPLUS-([a-z0-9]+)/i,
+        lenovo_1: /Lenovo[\s-]?([\w-]+)/i,
+        lenovo_100: /Lenovo/i,
+        zte_1: /ZTE\s?(\w+)?/i,
+        zte_2: /ZTE/i,
+        coolpad_1: /Coolpad\s(\w+)/i,
+        coolpad_100: /Coolpad/i,
+        oppo_1: /OPPO\s?(\w+)/i,
+        oppo_2: /(R7Plus|R8007|R801|R831S|R8205)/i,
+        oppo_100: /OPPO/i,
+        meizu_1: /(MX\d+)/i,
+        meizu_2: /(m\d+\snote)\sBuild/i,
+        htc_1: /HTC\s?(\w+)/i,
+        htc_100: /HTC/i,
+        tcl: /TCL\s(\w+)/i,
+        lephone: /lephone\s(\w+)/i,
+        lg: /LG[\s-]?(\w+)/i,
+        galaxy: /(galaxy\d+)/,
+        hisense_1: /Hisense/i,
+        hisense_2: /HS-(\w+)/i,
+        philips: /Philips\s?(\w+)?/i,
+        "\u91d1\u7acb": /(GN\w+)\sBuild/i,
+        sonny: /sonny/i,
+        "\u5929\u8bed": /K-Touch/i
+    };
+    for (var m in l)
+        if (k = l[m].exec(a)) {
+            this.phone.name = m.replace(/_\d+/, ""),
+                k[1] && (this.phone.version = k[1].replace(/^[_-]/gi, ""));
+            break
+        }
+    this.browser && this.browser.mqq && (this.mobile = !0)
+}
+
+c_V1.call(this, navigator.userAgent);
+
+function getUrlParam(a, b) {
+    b = b || document.location.toString();
+    var c = new RegExp("(^|&|\\\\?)" + a + "=([^&]*)(&|$|#)")
+        , d = null;
+    return d = b.match(c),
+        d ? d[2] : ""
+}
+
+
+    var A= function(){
+        this.href = location.href;      // 正式用的。。。
+        this.href = $('#url').val().trim();        // 测试用的
+        this.d = this;
+
+        function getVid(url) {
+            var match = /(\w+)\.html/.exec(url);
+            if (match != null) {
+                result = match[1];
+            } else {
+                result = "";
+                console.error('无法获取vid值')
+            }
+            return result;
+        }
+
+        return getCkey({
+            appVer: "3.5.57",       // app版本
+            encryptVer: "8.1",      // 加密版本
+            guid: createGUID(),     // guid 全局唯一标识符
+            platform: getPcPlatformId({
+                href: this.href
+            }),      // 平台   win32是10201
+            tm: Math.round((new Date).getTime() / 1e3),     // 当前时间戳  10位
+            vid: getVid(this.href),     // 视频id
+        });
+    }
+
+    $('#arithmetic').bind('click', (e) => {
+        $('.result').html(A());
+    });
+    $('.result').html(A());
+    var data_movie={
+        "ckey":A(),
+            "vidd":$('#dian_ji_a').attr("value"),
+        "url":$('#url').attr("value")
+    };
+    $('#dian_ji_a').bind('click', (e) => {
+        $.ajax({
+        url: "/",
+        type: "GET",
+        data:data_movie,
+        dataType: "json",
+        success: function (data) {
+            console.log(data)
+        },
+        error: function(xhr, type) {
+            console.log("shi bai",A(),data_movie.vidd);
+            window.location.href="/play_movies_zui_new?ckey="+data_movie.ckey+"&vid="+data_movie.vidd;
+
+    }
+
+        })
+
+    });
+
+</script>
+</body>
+</html>

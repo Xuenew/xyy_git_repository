@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>videoJs</title>
+<link href="//vjs.zencdn.net/4.10/video-js.css" rel="stylesheet">
+        <script src="../static/js/video.min.js"></script>
+        <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+    </head>
+    <body>
+        <section id="videoPlayer">
+            <video id="example-video" width="600" height="300" class="video-js vjs-default-skin vjs-big-play-centered" poster="">
+                <source src="https://cn2.zuidadianying.com/ppvod/316F2512E37A26725B3B703D2AEDF36E.m3u8" type="application/x-mpegURL" id="target">
+            </video>
+        </section>
+        <script type="text/javascript">
+            var player = videojs('example-video', { "poster": "", "controls": "true" }, function() {
+                this.on('play', function() {
+                    console.log('���ڲ���');
+                });
+                //��ͣ--������Ϻ�Ҳ����ͣ
+                this.on('pause', function() {
+                    console.log("��ͣ��")
+                });
+                // ����
+                this.on('ended', function() {
+                    console.log('����');
+                })
+
+            });
+        </script>
+    </body>
+</html>

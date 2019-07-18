@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+<body>
+<video id="example-video" width=600 height=300 class="video-js vjs-default-skin" controls>
+    <source src= "{{ src_r }}" type="application/x-mpegURL">
+{#    <video id="example-video" width=600 height=300 class="video-js vjs-default-skin" controls>#}
+{#    <source src= "https://apd-359c3f161b245b83f769c7b19de79d8a.v.smtcdns.com/vipts.tc.qq.com/AMX1eFtdFpxIGAziTM30s_rMpmLAU802CsKjeYSzCwZw/uwMRJfz-r5hgYaQXGdGnCbgXrsffx5g8BAWzBqdMR0Y/BwicalaZnlYoe7yYTws--WYkgLPmTLAp4ZxryLSLr9IT1en7S_jGlCDorRNvjLAdfQdJUXrENW8QhfURB7meWR1XX8iPyHy1FSd6PBELI8rtYexYRoPYOicUOE8LppM2dBWFam8y26Rpiso8kx7VTRRAKVeAB2_R" type="application/x-mpegURL">#}
+{#    <source src= "https://baidu.com-v-baidu.com/20180811/5487_57c6ec5e/1000k/hls/index.m3u8" type="application/x-mpegURL">#}
+{#    {{ src_r|safe }}#}
+</video>
+ <script src="/static/js/video.min.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+<script>
+    var player=videojs('#example-video');
+    player.play();
+</script>
+</body>
+</html>
